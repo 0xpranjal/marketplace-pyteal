@@ -8,16 +8,16 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
 ```
 
-### Instalar python 3
+### Install python 3
 `brew install python3`
 
-## Instalar nodejs
+## Install nodejs
 `brew install node`
 
-## Instalar sandbox
+## Install sandbox
 `git clone https://github.com/algorand/sandbox.git`
 
-## changes in configuration for running sandbox within a propject folder
+## Changes in configuration for running sandbox within a propject folder
 ```
 volumes:
 - type: bind
@@ -28,4 +28,3 @@ volumes:
 ## Intialising sandbox
 `./sandbox up -v`
 `./sandbox enter algod`
-
