@@ -1,4 +1,4 @@
-# intro-to-pyteal
+# Pyteal marketplace example
 
 ### Install brew
 ```
